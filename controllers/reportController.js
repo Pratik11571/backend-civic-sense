@@ -1,6 +1,6 @@
 import Report from "../models/Report.js";
 import mongoose from "mongoose";
-import { uploadToCloudinary, deleteFromCloudinary } from "../config/Cloudinary.js";
+import { uploadToCloudinary, deleteFromCloudinary } from "../config/cloudinary.js";
 // Create a new report with Cloudinary image upload and language detection
 export const createReport = async (req, res) => {
   try {
